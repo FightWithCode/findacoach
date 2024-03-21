@@ -6,7 +6,7 @@
         <BaseCard>
             <div>
                 <BaseButton mode="outline">Refresh</BaseButton>
-                <BaseButton to="/register" link>Register as Coach</BaseButton>
+                <BaseButton link to="/register" >Register as Coach</BaseButton>
             </div>
             <ul>
                 <CoachItem v-for="coach in filterCoaches" :key="coach" :id="coach.id" :coach="coach" ></CoachItem>
